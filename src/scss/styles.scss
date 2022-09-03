@@ -1,66 +1,80 @@
 @font-face {
   font-family: "poppins";
-  src: url("../../public/assets/fonts/Poppins-Regular.ttf") format("truetype");
+  src: url("../../assets/fonts/Poppins-Regular.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "poppins medium";
-  src: url("../../public/assets/fonts/Poppins-Medium.ttf") format("truetype");
+  src: url("../../assets/fonts/Poppins-Medium.ttf") format("truetype");
 }
 
 body {
   font-family: "poppins", sans-serif;
 }
+
 .navbar {
   .btn {
     width: 7.8rem;
     text-align: center;
+
     .fa-globe {
       font-size: 0.5rem;
     }
+
     select {
       font-size: 6px;
       line-height: 1.4rem;
     }
   }
+
   .btn.login {
     width: 3.8rem;
     background: #e50914;
+
     a {
       font-size: 0.8rem;
       text-align: center;
     }
   }
 }
+
 .home {
-  background: url("../../public/assets/img/netflix.jpg") no-repeat center;
+  background: url("../../assets/img/netflix.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
+
   .home_content {
     .home_title {
       font-size: 1.4rem;
       font-family: "poppins medium";
       font-weight: bold;
     }
+
     .home_subtext {
       font-size: 1rem;
     }
+
     .home_text {
       font-size: 0.8rem;
     }
+
     .btn {
       background: #e50914;
       font-size: 0.8rem;
     }
   }
 }
+
 .story {
   background: #000;
+
   .container {
     .title {
       font-size: 1.5rem;
       padding-bottom: 2rem;
       text-align: center;
     }
+
     .subtitle {
       font-size: 0.7rem;
       text-align: center;
@@ -68,6 +82,7 @@ body {
     }
   }
 }
+
 .download {
   .animation-container {
     .animation {
@@ -78,18 +93,22 @@ body {
       position: absolute;
       top: 140px;
       left: 70px;
+
       .img-fluid {
         width: 50px;
         height: 100px;
       }
+
       .text {
         h2 {
           font-size: 0.5rem;
         }
+
         p {
           font-size: 0.4rem;
         }
       }
+
       .animated {
         .fa-circle-notch {
           font-size: 1rem;
@@ -98,38 +117,46 @@ body {
       }
     }
   }
+
   .download-title {
     .titleTv {
       font-size: 1.3rem;
       text-align: center;
       padding-top: 2rem;
     }
+
     .save {
       font-size: 1rem;
       text-align: center;
     }
   }
 }
+
 .watch {
   .title {
     font-size: 1.7rem;
     text-align: center;
   }
+
   p {
     font-size: 0.8rem;
     text-align: center;
   }
 }
+
 .accordion-header {
   .accordion-button {
     color: #fff;
   }
+
   .accordion-button::after {
     background-image: url("../../public/assets/img/plus-solid.svg");
   }
+
   .accordion-button:not(.collapsed)::after {
     background-image: url("../../public/assets/img/plus-solid.svg");
   }
+
   .accordion-button:focus,
   .accordion-button:active {
     border: 0 !important;
@@ -143,46 +170,56 @@ body {
     .btn {
       width: 12rem;
       text-align: center;
+
       .fa-globe {
         font-size: 0.6rem;
       }
+
       select {
         font-size: 0.7rem;
       }
     }
+
     .btn.login {
       width: 7rem;
       height: 3rem;
       background: #e50914;
+
       a {
         font-size: 1.3rem;
       }
     }
   }
+
   .home {
     .home_content {
       .home_title {
         font-size: 2.2rem;
       }
+
       .home_subtext {
         font-size: 1.7rem;
       }
+
       .home_text {
         font-size: 1.2rem;
       }
     }
   }
+
   .story {
     .container {
       .title {
         font-size: 2.5rem;
         text-align: center;
       }
+
       .subtitle {
         font-size: 1rem;
       }
     }
   }
+
   .download {
     .animation-container {
       .animation {
@@ -193,18 +230,22 @@ body {
         position: absolute;
         top: 230px;
         left: 120px;
+
         .img-fluid {
           width: 50px;
           height: 100px;
         }
+
         .text {
           h2 {
             font-size: 1rem;
           }
+
           p {
             font-size: 0.8rem;
           }
         }
+
         .animated {
           .fa-circle-notch {
             font-size: 1.5rem;
@@ -213,69 +254,84 @@ body {
         }
       }
     }
+
     .download-title {
       .titleTv {
         font-size: 1.8rem;
         text-align: center;
       }
+
       .save {
         font-size: 1.2rem;
       }
     }
   }
+
   .watch {
     .title {
       font-size: 2rem;
     }
+
     p {
       font-size: 1rem;
     }
   }
 }
+
 @media screen and (min-width: 768px) {
   .navbar {
     .btn {
       width: 16rem;
+
       .fa-globe {
         font-size: 0.8rem;
       }
+
       select {
         font-size: 0.8rem;
       }
     }
+
     .btn.login {
       width: 6rem;
       height: 3rem;
+
       a {
         font-size: 1.3rem;
       }
     }
   }
+
   .home {
     .home_content {
       .home_title {
         font-size: 3rem;
       }
+
       .home_subtext {
         font-size: 1.3rem;
       }
+
       .home_text {
         font-size: 1.1rem;
       }
     }
   }
+
   .story {
     .container {
       .title {
         font-size: 2.8rem;
         text-align: left;
       }
+
       .subtitle {
         font-size: 1.2rem;
         text-align: left;
       }
     }
   }
+
   .download {
     .animation-container {
       .animation {
@@ -286,17 +342,21 @@ body {
         position: absolute;
         top: 150px;
         left: 50px;
+
         .img-fluid {
           width: 72px;
         }
+
         .text {
           h2 {
             font-size: 1rem;
           }
+
           p {
             font-size: 0.8rem;
           }
         }
+
         .animated {
           .fa-circle-notch {
             font-size: 1.6rem;
@@ -305,22 +365,26 @@ body {
         }
       }
     }
+
     .download-title {
       .titleTv {
         font-size: 2rem;
         text-align: left;
       }
+
       .save {
         font-size: 1.1rem;
         text-align: left;
       }
     }
   }
+
   .watch {
     .title {
       font-size: 2.7rem;
       text-align: left;
     }
+
     p {
       font-size: 1.2rem;
       text-align: left;
@@ -334,26 +398,31 @@ body {
       .home_title {
         font-size: 2.7rem;
       }
+
       .home_subtext {
         font-size: 1.5rem;
       }
+
       .home_text {
         font-size: 1.2rem;
       }
     }
   }
+
   .story {
     .container {
       .title {
         font-size: 3rem;
         text-align: left;
       }
+
       .subtitle {
         font-size: 1.3rem;
         text-align: left;
       }
     }
   }
+
   .download {
     .animation-container {
       .animation {
@@ -361,17 +430,21 @@ body {
         height: 5rem;
         top: 230px;
         left: 80px;
+
         .img-fluid {
           width: 72px;
         }
+
         .text {
           h2 {
             font-size: 1.1rem;
           }
+
           p {
             font-size: 0.8rem;
           }
         }
+
         .animated {
           .fa-circle-notch {
             font-size: 1.8rem;
@@ -380,70 +453,84 @@ body {
         }
       }
     }
+
     .download-title {
       .titleTv {
         font-size: 2.3rem;
         text-align: left;
       }
+
       .save {
         font-size: 1.2rem;
         text-align: left;
       }
     }
   }
+
   .watch {
     .title {
       font-size: 2.6rem;
       text-align: left;
     }
+
     p {
       font-size: 1.2rem;
       text-align: left;
     }
   }
 }
+
 @media screen and (min-width: 1200px) {
   .navbar {
     .btn {
       .fa-globe {
         font-size: 1rem;
       }
+
       select {
         font-size: 0.9rem;
       }
     }
+
     .btn.login {
       height: 2.6rem;
+
       a {
         font-size: 1.2rem;
       }
     }
   }
+
   .home {
     .home_content {
       .home_title {
         font-size: 3rem;
       }
+
       .home_subtext {
         font-size: 1.7rem;
       }
+
       .home_text {
         font-size: 1.4rem;
       }
     }
   }
+
   .story {
     .container {
       .title {
         font-size: 3rem;
         text-align: left;
       }
+
       .subtitle {
         font-size: 1.3rem;
         text-align: left;
       }
     }
   }
+
   .download {
     .animation-container {
       .animation {
@@ -451,6 +538,7 @@ body {
         height: 5rem;
         top: 260px;
         left: 120px;
+
         .animated {
           .fa-circle-notch {
             padding: 20px;
@@ -458,29 +546,35 @@ body {
         }
       }
     }
+
     .download-title {
       .titleTv {
         font-size: 2.4rem;
         text-align: left;
       }
+
       .save {
         font-size: 1.3rem;
         text-align: left;
       }
     }
   }
+
   .watch {
     background: #000;
+
     .title {
       font-size: 3rem;
       text-align: left;
     }
+
     p {
       font-size: 1.3rem;
       text-align: left;
     }
   }
 }
+
 @media screen and (min-width: 1400px) {
   .download {
     .animation-container {
