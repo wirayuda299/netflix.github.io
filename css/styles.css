@@ -1,1 +1,392 @@
-@font-face{font-family:"poppins";src:url("../../public/assets/fonts/Poppins-Regular.ttf") format("truetype")}@font-face{font-family:"poppins medium";src:url("../../public/assets/fonts/Poppins-Medium.ttf") format("truetype")}body{font-family:"poppins",sans-serif}.navbar .btn{width:7.8rem;text-align:center}.navbar .btn .fa-globe{font-size:.5rem}.navbar .btn select{font-size:6px;line-height:1.4rem}.navbar .btn.login{width:3.8rem;background:#e50914}.navbar .btn.login a{font-size:.8rem;text-align:center}.home{background:url("../../public/assets/img/netflix.jpg") no-repeat center;background-size:cover;background-attachment:fixed}.home .home_content .home_title{font-size:1.4rem;font-family:"poppins medium";font-weight:bold}.home .home_content .home_subtext{font-size:1rem}.home .home_content .home_text{font-size:.8rem}.home .home_content .btn{background:#e50914;font-size:.8rem}.story{background:#000}.story .container .title{font-size:1.5rem;padding-bottom:2rem;text-align:center}.story .container .subtitle{font-size:.7rem;text-align:center;padding-bottom:2rem}.download .animation-container .animation{background:#000;overflow:hidden;width:10rem;height:3rem;position:absolute;top:140px;left:70px}.download .animation-container .animation .img-fluid{width:50px;height:100px}.download .animation-container .animation .text h2{font-size:.5rem}.download .animation-container .animation .text p{font-size:.4rem}.download .animation-container .animation .animated .fa-circle-notch{font-size:1rem;padding:10px}.download .download-title .titleTv{font-size:1.3rem;text-align:center;padding-top:2rem}.download .download-title .save{font-size:1rem;text-align:center}.watch .title{font-size:1.7rem;text-align:center}.watch p{font-size:.8rem;text-align:center}.accordion-header .accordion-button{color:#fff}.accordion-header .accordion-button::after{background-image:url("../../public/assets/img/plus-solid.svg")}.accordion-header .accordion-button:not(.collapsed)::after{background-image:url("../../public/assets/img/plus-solid.svg")}.accordion-header .accordion-button:focus,.accordion-header .accordion-button:active{border:0 !important;outline:0 !important;box-shadow:none !important}@media screen and (min-width: 576px){.navbar .btn{width:12rem;text-align:center}.navbar .btn .fa-globe{font-size:.6rem}.navbar .btn select{font-size:.7rem}.navbar .btn.login{width:7rem;height:3rem;background:#e50914}.navbar .btn.login a{font-size:1.3rem}.home .home_content .home_title{font-size:2.2rem}.home .home_content .home_subtext{font-size:1.7rem}.home .home_content .home_text{font-size:1.2rem}.story .container .title{font-size:2.5rem;text-align:center}.story .container .subtitle{font-size:1rem}.download .animation-container .animation{background:#000;overflow:hidden;width:17rem;height:4.5rem;position:absolute;top:230px;left:120px}.download .animation-container .animation .img-fluid{width:50px;height:100px}.download .animation-container .animation .text h2{font-size:1rem}.download .animation-container .animation .text p{font-size:.8rem}.download .animation-container .animation .animated .fa-circle-notch{font-size:1.5rem;padding:15px}.download .download-title .titleTv{font-size:1.8rem;text-align:center}.download .download-title .save{font-size:1.2rem}.watch .title{font-size:2rem}.watch p{font-size:1rem}}@media screen and (min-width: 768px){.navbar .btn{width:16rem}.navbar .btn .fa-globe{font-size:.8rem}.navbar .btn select{font-size:.8rem}.navbar .btn.login{width:6rem;height:3rem}.navbar .btn.login a{font-size:1.3rem}.home .home_content .home_title{font-size:3rem}.home .home_content .home_subtext{font-size:1.3rem}.home .home_content .home_text{font-size:1.1rem}.story .container .title{font-size:2.8rem;text-align:left}.story .container .subtitle{font-size:1.2rem;text-align:left}.download .animation-container .animation{overflow:hidden;width:16rem;height:4.5rem;position:absolute;top:150px;left:50px}.download .animation-container .animation .img-fluid{width:72px}.download .animation-container .animation .text h2{font-size:1rem}.download .animation-container .animation .text p{font-size:.8rem}.download .animation-container .animation .animated .fa-circle-notch{font-size:1.6rem;padding:15px}.download .download-title .titleTv{font-size:2rem;text-align:left}.download .download-title .save{font-size:1.1rem;text-align:left}.watch .title{font-size:2.7rem;text-align:left}.watch p{font-size:1.2rem;text-align:left}}@media screen and (min-width: 992px){.home .home_content .home_title{font-size:2.7rem}.home .home_content .home_subtext{font-size:1.5rem}.home .home_content .home_text{font-size:1.2rem}.story .container .title{font-size:3rem;text-align:left}.story .container .subtitle{font-size:1.3rem;text-align:left}.download .animation-container .animation{width:20rem;height:5rem;top:230px;left:80px}.download .animation-container .animation .img-fluid{width:72px}.download .animation-container .animation .text h2{font-size:1.1rem}.download .animation-container .animation .text p{font-size:.8rem}.download .animation-container .animation .animated .fa-circle-notch{font-size:1.8rem;padding:20px}.download .download-title .titleTv{font-size:2.3rem;text-align:left}.download .download-title .save{font-size:1.2rem;text-align:left}.watch .title{font-size:2.6rem;text-align:left}.watch p{font-size:1.2rem;text-align:left}}@media screen and (min-width: 1200px){.navbar .btn .fa-globe{font-size:1rem}.navbar .btn select{font-size:.9rem}.navbar .btn.login{height:2.6rem}.navbar .btn.login a{font-size:1.2rem}.home .home_content .home_title{font-size:3rem}.home .home_content .home_subtext{font-size:1.7rem}.home .home_content .home_text{font-size:1.4rem}.story .container .title{font-size:3rem;text-align:left}.story .container .subtitle{font-size:1.3rem;text-align:left}.download .animation-container .animation{width:20rem;height:5rem;top:260px;left:120px}.download .animation-container .animation .animated .fa-circle-notch{padding:20px}.download .download-title .titleTv{font-size:2.4rem;text-align:left}.download .download-title .save{font-size:1.3rem;text-align:left}.watch{background:#000}.watch .title{font-size:3rem;text-align:left}.watch p{font-size:1.3rem;text-align:left}}@media screen and (min-width: 1400px){.download .animation-container .animation{width:22rem;height:5rem;top:300px;left:150px}}/*# sourceMappingURL=styles.css.map */
+@font-face {
+  font-family: "poppins";
+  src: url("../../assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "poppins medium";
+  src: url("../../assets/fonts/Poppins-Medium.ttf") format("truetype");
+}
+body {
+  font-family: "poppins", sans-serif;
+}
+
+.navbar .btn {
+  width: 7.8rem;
+  text-align: center;
+}
+.navbar .btn .fa-globe {
+  font-size: 0.5rem;
+}
+.navbar .btn select {
+  font-size: 6px;
+  line-height: 1.4rem;
+}
+.navbar .btn.login {
+  width: 3.8rem;
+  background: #e50914;
+}
+.navbar .btn.login a {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.home {
+  background: url("../../assets/img/netflix.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home .home_content .home_title {
+  font-size: 1.4rem;
+  font-family: "poppins medium";
+  font-weight: bold;
+}
+.home .home_content .home_subtext {
+  font-size: 1rem;
+}
+.home .home_content .home_text {
+  font-size: 0.8rem;
+}
+.home .home_content .btn {
+  background: #e50914;
+  font-size: 0.8rem;
+}
+
+.story {
+  background: #000;
+}
+.story .container .title {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.story .container .subtitle {
+  font-size: 0.7rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.download .animation-container .animation {
+  background: #000;
+  overflow: hidden;
+  width: 10rem;
+  height: 3rem;
+  position: absolute;
+  top: 140px;
+  left: 70px;
+}
+.download .animation-container .animation .img-fluid {
+  width: 50px;
+  height: 100px;
+}
+.download .animation-container .animation .text h2 {
+  font-size: 0.5rem;
+}
+.download .animation-container .animation .text p {
+  font-size: 0.4rem;
+}
+.download .animation-container .animation .animated .fa-circle-notch {
+  font-size: 1rem;
+  padding: 10px;
+}
+.download .download-title .titleTv {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+.download .download-title .save {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.watch .title {
+  font-size: 1.7rem;
+  text-align: center;
+}
+.watch p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.accordion-header .accordion-button {
+  color: #fff;
+}
+.accordion-header .accordion-button::after {
+  background-image: url("../../assets/img/plus-solid.svg");
+}
+.accordion-header .accordion-button:not(.collapsed)::after {
+  background-image: url("../../assets/img/plus-solid.svg");
+}
+.accordion-header .accordion-button:focus,
+.accordion-header .accordion-button:active {
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+@media screen and (min-width: 576px) {
+  .navbar .btn {
+    width: 12rem;
+    text-align: center;
+  }
+  .navbar .btn .fa-globe {
+    font-size: 0.6rem;
+  }
+  .navbar .btn select {
+    font-size: 0.7rem;
+  }
+  .navbar .btn.login {
+    width: 7rem;
+    height: 3rem;
+    background: #e50914;
+  }
+  .navbar .btn.login a {
+    font-size: 1.3rem;
+  }
+  .home .home_content .home_title {
+    font-size: 2.2rem;
+  }
+  .home .home_content .home_subtext {
+    font-size: 1.7rem;
+  }
+  .home .home_content .home_text {
+    font-size: 1.2rem;
+  }
+  .story .container .title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .story .container .subtitle {
+    font-size: 1rem;
+  }
+  .download .animation-container .animation {
+    background: #000;
+    overflow: hidden;
+    width: 17rem;
+    height: 4.5rem;
+    position: absolute;
+    top: 230px;
+    left: 120px;
+  }
+  .download .animation-container .animation .img-fluid {
+    width: 50px;
+    height: 100px;
+  }
+  .download .animation-container .animation .text h2 {
+    font-size: 1rem;
+  }
+  .download .animation-container .animation .text p {
+    font-size: 0.8rem;
+  }
+  .download .animation-container .animation .animated .fa-circle-notch {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+  .download .download-title .titleTv {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .download .download-title .save {
+    font-size: 1.2rem;
+  }
+  .watch .title {
+    font-size: 2rem;
+  }
+  .watch p {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar .btn {
+    width: 16rem;
+  }
+  .navbar .btn .fa-globe {
+    font-size: 0.8rem;
+  }
+  .navbar .btn select {
+    font-size: 0.8rem;
+  }
+  .navbar .btn.login {
+    width: 6rem;
+    height: 3rem;
+  }
+  .navbar .btn.login a {
+    font-size: 1.3rem;
+  }
+  .home .home_content .home_title {
+    font-size: 3rem;
+  }
+  .home .home_content .home_subtext {
+    font-size: 1.3rem;
+  }
+  .home .home_content .home_text {
+    font-size: 1.1rem;
+  }
+  .story .container .title {
+    font-size: 2.8rem;
+    text-align: left;
+  }
+  .story .container .subtitle {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .download .animation-container .animation {
+    overflow: hidden;
+    width: 16rem;
+    height: 4.5rem;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+  }
+  .download .animation-container .animation .img-fluid {
+    width: 72px;
+  }
+  .download .animation-container .animation .text h2 {
+    font-size: 1rem;
+  }
+  .download .animation-container .animation .text p {
+    font-size: 0.8rem;
+  }
+  .download .animation-container .animation .animated .fa-circle-notch {
+    font-size: 1.6rem;
+    padding: 15px;
+  }
+  .download .download-title .titleTv {
+    font-size: 2rem;
+    text-align: left;
+  }
+  .download .download-title .save {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  .watch .title {
+    font-size: 2.7rem;
+    text-align: left;
+  }
+  .watch p {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 992px) {
+  .home .home_content .home_title {
+    font-size: 2.7rem;
+  }
+  .home .home_content .home_subtext {
+    font-size: 1.5rem;
+  }
+  .home .home_content .home_text {
+    font-size: 1.2rem;
+  }
+  .story .container .title {
+    font-size: 3rem;
+    text-align: left;
+  }
+  .story .container .subtitle {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+  .download .animation-container .animation {
+    width: 20rem;
+    height: 5rem;
+    top: 230px;
+    left: 80px;
+  }
+  .download .animation-container .animation .img-fluid {
+    width: 72px;
+  }
+  .download .animation-container .animation .text h2 {
+    font-size: 1.1rem;
+  }
+  .download .animation-container .animation .text p {
+    font-size: 0.8rem;
+  }
+  .download .animation-container .animation .animated .fa-circle-notch {
+    font-size: 1.8rem;
+    padding: 20px;
+  }
+  .download .download-title .titleTv {
+    font-size: 2.3rem;
+    text-align: left;
+  }
+  .download .download-title .save {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .watch .title {
+    font-size: 2.6rem;
+    text-align: left;
+  }
+  .watch p {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbar .btn .fa-globe {
+    font-size: 1rem;
+  }
+  .navbar .btn select {
+    font-size: 0.9rem;
+  }
+  .navbar .btn.login {
+    height: 2.6rem;
+  }
+  .navbar .btn.login a {
+    font-size: 1.2rem;
+  }
+  .home .home_content .home_title {
+    font-size: 3rem;
+  }
+  .home .home_content .home_subtext {
+    font-size: 1.7rem;
+  }
+  .home .home_content .home_text {
+    font-size: 1.4rem;
+  }
+  .story .container .title {
+    font-size: 3rem;
+    text-align: left;
+  }
+  .story .container .subtitle {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+  .download .animation-container .animation {
+    width: 20rem;
+    height: 5rem;
+    top: 260px;
+    left: 120px;
+  }
+  .download .animation-container .animation .animated .fa-circle-notch {
+    padding: 20px;
+  }
+  .download .download-title .titleTv {
+    font-size: 2.4rem;
+    text-align: left;
+  }
+  .download .download-title .save {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+  .watch {
+    background: #000;
+  }
+  .watch .title {
+    font-size: 3rem;
+    text-align: left;
+  }
+  .watch p {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .download .animation-container .animation {
+    width: 22rem;
+    height: 5rem;
+    top: 300px;
+    left: 150px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
