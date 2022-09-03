@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar</title>
+    <link rel="stylesheet" href="../../src/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top d-flex flex-nowrap justify-content-between shadow-sm border-bottom">
+        <div class="container-fluid ">
+            <a class="navbar-brand ms-0 ms-md-5 mt-2 px-5" href="../index.html">
+                <img class="img-fluid" src="../assets/img/netflix-logo.png" alt="" width="125px"">
+      </a>
+    <div class=" btn login" style="background:#e50914 ;">
+                <a class="text-white text-center text-decoration-none" href="../loginPage/login.html">Masuk</a>
+        </div>
+    </nav>
+
+    <div class="container-fluid min-vh-100 d-flex flex-column justify-content-center align-items-center"
+        style="background: url('../assets/img/netflix.jpg">
+        <div
+            class="container formGradient min-vh-100 min-vw-100 pb-3 px-5 d-flex flex-column justify-content-end align-items-center">
+            <form class="form px-5 pb-5 rounded formbg " action="#">
+
+                <h1 class="pt-5 pb-3 text-white">Daftar</h1>
+
+                <label class="form-label text-white" for="username">Username</label>
+                <input class="form-control py-2 rounded-0" type="text" name="username" id="username"
+                    placeholder="username">
+                <label class="form-label text-white" for="emailDaftar">Email</label>
+                <input class="form-control py-2 rounded-0" type="email" name="emailDaftar" id="emailDaftar"
+                    placeholder="Email">
+
+                <label class="form-label text-white" for="passwordDaftar">Password</label>
+                <input class="form-control py-2 rounded-0" type="password" name="passwordDaftar" id="passwordDaftar"
+                    placeholder="Password">
+
+                <button class="btn w-100 mt-4 text-white signinButton" id="button" type="submit"
+                    style="background:#e50914 ;">Sign up</button>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="text-center text-lg-start text-white bg-dark text-bg-dark border-top border-dark>
+    <div class=" container-fluid">
+        <h6 class="text-muted text-center py-3">Ada pertanyaan? Hubungi <a class="text-decoration-none text-muted"
+                href="tel:+007-803-321-2148">007-803-321-2148</a>
+        </h6>
+        <div class="container-fluid d-flex justify-content-center align-items-center py-5 ">
+            <div class="row justify-content-center align-items-top">
+                <div class=" col-md-3 mb-4">
+                    <p><a class="text-decoration-none text-white " href="#">Tanya jawab</a></p>
+                    <p><a class="text-decoration-none text-white " href="#">Preferensi cookie</a></p>
+
+                </div>
+
+                <div class=" col-md-3 mb-4">
+                    <p><a class="text-decoration-none text-white" href="#">Pusat bantuan</a></p>
+                    <p><a class="text-decoration-none text-white" href="#">Informasi perusahaan</a></p>
+
+                </div>
+                <div class=" col-md-3 mb-4">
+                    <p><a class="text-decoration-none text-white" href="#">Ketentuan penggunaan</a></p>
+                </div>
+                <div class=" col-md-3 mb-4">
+                    <p><a class="text-decoration-none text-white" href="#">Privasi</a></p>
+
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+            <div class=" btn border py-1 lang ms-auto me-0 me-md-3 rounded-0">
+                <i class="fa-solid fa-globe text-white"></i>
+                <select class="bg-transparent text-white border-0" name="lang" id="lang">
+                    <option class=" text-dark" value="indonesia">Bahasa Indonesia</option>
+                    <option class="text-dark" value="english">English</option>
+                </select>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="../../src/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../src/script/home/index.js"></script>
+</body>
+
+</html>

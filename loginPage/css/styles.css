@@ -1,0 +1,8 @@
+.formGradient {
+    margin-left: -20px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.37));
+}
+.formbg {
+    width: 25rem;
+    background: rgba(0, 0, 0, 0.562);
+}
