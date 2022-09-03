@@ -150,11 +150,11 @@ body {
   }
 
   .accordion-button::after {
-    background-image: url("../../public/assets/img/plus-solid.svg");
+    background-image: url("../../assets/img/plus-solid.svg");
   }
 
   .accordion-button:not(.collapsed)::after {
-    background-image: url("../../public/assets/img/plus-solid.svg");
+    background-image: url("../../assets/img/plus-solid.svg");
   }
 
   .accordion-button:focus,
